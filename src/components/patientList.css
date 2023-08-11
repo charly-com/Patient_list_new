@@ -1,0 +1,19 @@
+.patient-contianer{
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.patient-list-header{
+    width: 100%;
+    height: 10%;
+    background: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
