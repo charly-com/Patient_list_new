@@ -19,7 +19,7 @@ const Patient = () => {
 
   return (
     <div>
-      <h1>Patient Details</h1>
+      <h1 className="py-5 text-lg">Patient Details</h1>
       <p>ID: {id}</p>
       <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
       <input type="number" value={age} onChange={(e) => setAge(e.target.value)} />
